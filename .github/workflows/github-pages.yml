@@ -1,9 +1,10 @@
-# name: Github Pages
-# on:
-#   workflow_dispatch:
-#   push:
-#     tags:
-#       - 'v*.*.*'
+name: Github Pages
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*.*.*'
+
 # jobs:
 #   Deploy-Pages:
 #     runs-on: ubuntu-18.04
