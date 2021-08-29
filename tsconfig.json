@@ -5,11 +5,11 @@
     "declaration": true,
     "outDir": "./lib",
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
     "downlevelIteration": true,
-    "lib": [
-     "dom",
-     "es2015"
-    ]
+    "experimentalDecorators": true,
+    "lib": ["ESNext"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "lib"]
