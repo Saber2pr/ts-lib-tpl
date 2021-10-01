@@ -1,3 +1,3 @@
-import { parse } from 'path';
+import { parse } from 'path'
 
 export const parsePath = parse

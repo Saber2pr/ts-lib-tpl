@@ -1,4 +1,4 @@
-import lib from '..';
+import lib from '../'
 
 describe('ParsePath', () => {
   it('test parse', () => {
