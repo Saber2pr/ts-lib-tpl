@@ -1,7 +1,7 @@
-import lib from '../'
+import { parsePath } from '../'
 
 describe('ParsePath', () => {
   it('test parse', () => {
-    expect(lib.parsePath('/path/file')).toMatchSnapshot()
+    expect(parsePath('/path/file')).toMatchSnapshot()
   })
 })
