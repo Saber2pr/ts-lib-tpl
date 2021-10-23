@@ -26,11 +26,10 @@
     "lint": "prettier --write ./src",
     "prepare": "husky install"
   },
-  "dependencies": {
-    "@types/node": "^16.3.3",
-    "typescript": "^4.3.5"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^16.3.3",
+    "typescript": "^4.3.5",
     "@types/jest": "^24.0.12",
     "husky": "^7.0.2",
     "jest": "^24.8.0",
